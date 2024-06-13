@@ -1,0 +1,11 @@
+{
+  "name": "google-apps-script-register-sheet-to-calendar",
+  "version": "1.0.0",
+  "description": "Google Apps Script to register Google Sheets content to Google Calendar",
+  "main": "Code.gs",
+  "scripts": {
+    "test": "echo 'No tests yet.'"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

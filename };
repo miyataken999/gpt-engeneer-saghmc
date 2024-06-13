@@ -1,0 +1,10 @@
+## Usage
+1. Create a new Google Sheet and add the data in the following format:
+| Title | Start Date | End Date | Description |
+| --- | --- | --- | --- |
+| Event 1 | 2023-03-01 | 2023-03-02 | This is event 1 |
+| Event 2 | 2023-03-05 | 2023-03-06 | This is event 2 |
+2. Create a new Google Calendar and note the calendar ID.
+3. Create a new Google Apps Script project and add the `Code.gs` and `config.js` files.
+4. Update the `config.js` file with your calendar ID and sheet name.
+5. Run the `createEventsFromSheet` function to create events in the Google Calendar.
